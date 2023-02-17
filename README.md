@@ -10,3 +10,5 @@ opencart 4x tem yazım kuralları
   $_['heading_title'] = '**** Template'; 
   
   Not: eklenti dosyasının kurulabilmesi için içide install.json zorunludur.
+  
+system\config\catalog.php içinde $_['action_event']  değişkenine 'view/*/before' içine 999=>'extension/vitrine/theme/onepage|auto_loader' eklenerek theme dosyaları otomatik yüklenir.

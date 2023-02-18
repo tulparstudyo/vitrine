@@ -11,4 +11,6 @@ opencart 4x tem yazım kuralları
   
   Not: eklenti dosyasının kurulabilmesi için içide install.json zorunludur.
   
-system\config\catalog.php içinde $_['action_event']  değişkenine 'view/*/before' içine 999=>'extension/vitrine/theme/onepage|auto_loader' eklenerek theme dosyaları otomatik yüklenir.
+2. system\config\catalog.php içinde $_['action_event']  değişkenine 'view/*/before' içine 999=>'extension/vitrine/theme/onepage|auto_loader' eklenerek theme dosyaları otomatik yüklenir.
+
+3. Bir eklentiyi uninstal için öncellikle o eklenti ile oluşturulumuş modüllerin kaldırılması gerekir

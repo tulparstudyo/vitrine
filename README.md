@@ -1,4 +1,12 @@
 # vitrine
+##Kurulumda open base dir
+```
+system/storage/vendor/twig/twig/src/Loader/FilesystemLoader.php
+$checkPath = $this->isAbsolutePath($path) ? $path : $this->rootPath.$path; replace with 
+$checkPath = $this->rootPath.$path;
+
+```
+
 opencart 4x tem yazım kuralları
 
 1. oc_extension_path dosyasında temanın kayıtlı olması gerekir modül yüklenirken otomatik oluşması için modül dosyasında 
